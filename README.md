@@ -22,3 +22,10 @@ It is based on the [Frictionless Data Standard](https://specs.frictionlessdata.i
 - Reachability of public transport stops on foot, bike and motorized
 - Number of residents and full time equivalent employees per hectar (100x100m)
 - Pathnetwork centralities
+
+## Data Sources
+
+- [OpenStreetMap](https://openstreetmap.org)
+- [Amtliche Vermessung Stadt Lenzburg](https://lenzburg.ch)
+- [Bundesamt für Statistik GEOSTAT](https://www.bfs.admin.ch/bfs/en/home/services/geostat.html)
+- [Swisscom Mobility Insights](https://mip.swisscom.ch/maps/search)
