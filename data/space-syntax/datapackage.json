@@ -1,0 +1,156 @@
+{
+  "author": "Thorben Westerhuys <thorben@cividi.ch>",
+  "bytes": 13672006,
+  "count_of_rows": 112196,
+  "hash": "7c5ca4088b9744a44eb368b59df0b50e",
+  "name": "space-syntax",
+  "profile": "data-package",
+  "resources": [
+    {
+      "bytes": 13672006,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "dpp:streamedFrom": "exports/spacesyntax_Segment_Map.tsv",
+      "dpp:streaming": true,
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "1d8681d12babcb62cd93945660ad36e0",
+      "name": "segment-map",
+      "path": "segment-map.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "geom_wkt",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "project",
+            "type": "any"
+          },
+          {
+            "format": "default",
+            "name": "key",
+            "type": "any"
+          },
+          {
+            "format": "default",
+            "name": "value",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "class",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "fill",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "fill-opacity",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "stroke",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "stroke-opacity",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "stroke-width",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "title",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ],
+  "views": [
+    {
+      "name": "mapview",
+      "resources": [],
+      "spec": {
+        "attribution": "",
+        "bounds": [
+          "geo:47.36436485,8.14203466",
+          "geo:47.41801186,8.19519318"
+        ],
+        "description": "Die Space Syntax Choice Analyse zeigt die Wahrscheinlichkeit auf, mit der ein Strassensegment von einem naiven Besucher benutzt wird. So wird z.B. sichtbar, welche Teile des Strassen- und Wegenetzes fussläufig einfach erreichbar sind.",
+        "legend": [
+          {
+            "label": "sehr schwach",
+            "primary": true,
+            "shape": "line",
+            "stroke": "#e6e6e6",
+            "stroke-opacity": 0.5,
+            "stroke-width": 2
+          },
+          {
+            "label": "schwach",
+            "primary": false,
+            "shape": "line",
+            "stroke": "#f1d8bf",
+            "stroke-opacity": 0.65,
+            "stroke-width": 2
+          },
+          {
+            "label": "mittel",
+            "primary": false,
+            "shape": "line",
+            "stroke": "#f6b75d",
+            "stroke-opacity": 0.8,
+            "stroke-width": 2
+          },
+          {
+            "label": "stark",
+            "primary": false,
+            "shape": "line",
+            "stroke": "#dc641d",
+            "stroke-opacity": 0.95,
+            "stroke-width": 2
+          },
+          {
+            "label": "sehr stark",
+            "primary": true,
+            "shape": "line",
+            "stroke": "#840011",
+            "stroke-opacity": 1,
+            "stroke-width": 2
+          }
+        ],
+        "title": "Wegenetz Zentralitäten"
+      },
+      "specType": "gemeindescanSnapshot"
+    }
+  ]
+}

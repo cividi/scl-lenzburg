@@ -1,0 +1,137 @@
+{
+  "author": "Thorben Westerhuys <thorben@cividi.ch>",
+  "bytes": 3578847,
+  "count_of_rows": 95,
+  "hash": "8e89aaf26f07c7ba4f2ba8a7e192f29a",
+  "name": "sbb-isochrones",
+  "profile": "data-package",
+  "resources": [
+    {
+      "bytes": 3613016,
+      "count_of_rows": 95,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "dpp:streamedFrom": "/home/thorben/Documents/cividi/projects/011-scl-lenzburg/data/sbb-haltestellen/sbb-haltestellen.csv",
+      "dpp:streaming": true,
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "7a6dcdb9378e1fe50c76241531e5a7cd",
+      "name": "sbb-haltestellen",
+      "path": "sbb-haltestellen.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "DIDOK NUMMER",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "BEZEICHNUNG_OFFIZIELL",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Abkuerzung",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "BPVB_BETRIEBSPUNKT_ART_ID",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "E_WGS84",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "N_WGS84",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "Z_WGS84",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "BPVH_VERKEHRSMITTEL",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "BPVH_VERKEHRSMITTEL_TEXT_DE",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "GO_ABKUERZUNG_DE",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "GO_BEZEICHNUNG_DE",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "dst_abk",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "IS_HALTESTELLE",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "buffer-500m",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "walk-2min",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "walk-5min",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "bike-5min",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "micro-5min",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "geom_wkt",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ]
+}

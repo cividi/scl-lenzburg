@@ -1,0 +1,2555 @@
+{
+    "name": "structure-oev-haltestellen",
+    "title": "\u00d6V Haltestellen",
+    "description": "Haltestellen des \u00f6ffentlichen Nahverkehrs in Lenzburg und Umgebung.",
+    "version": "1.0.0",
+    "datapackage_version": "1.0.0",
+    "gemeindescan_version": "0.3.1",
+    "gemeindescan_meta": {
+        "topic": "Struktur"
+    },
+    "format": "geojson",
+    "license": "ODC-By-1.0",
+    "licenses": [{
+        "url": "https://opendatacommons.org/licenses/by/1.0/",
+        "type": "ODC-By-1.0"
+    }],
+    "views": [{
+        "name": "mapview",
+        "specType": "gemeindescanSnapshot",
+        "spec": {
+            "title": "\u00d6V Haltestellen",
+            "description": "Haltestellen des \u00f6ffentlichen Nahverkehrs in Lenzburg und Umgebung.",
+            "attribution": "",
+            "bounds": ["geo:47.36436485,8.14203466", "geo:47.41801186,8.19519318"],
+            "legend": [{
+                "label": "Bahnhof",
+                "size": 1,
+                "shape": "circle",
+                "primary": true,
+                "fillColor": "#ffffff",
+                "fillOpacity": 0.49,
+                "strokeColor": "#01b3ff",
+                "strokeWidth": 2.0,
+                "strokeOpacity": 1.0
+            }, {
+                "label": "Haltestelle Bus",
+                "size": 1,
+                "shape": "circle",
+                "primary": true,
+                "fillColor": "#ffffff",
+                "fillOpacity": 0.46,
+                "strokeColor": "#112083",
+                "strokeWidth": 2.0,
+                "strokeOpacity": 1.0
+            }]
+        },
+        "resources": ["Haltestellen", "mapbox-background"]
+    }],
+    "sources": [{
+        "url": "https://www.openstreetmap.org/copyright",
+        "title": "Karte: Mapbox, \u00a9 OpenStreetMap"
+    }, {
+        "url": "https://data.sbb.ch",
+        "title": "SBB Didok"
+    }],
+    "resources": [{
+        "name": "Haltestellen",
+        "mediatype": "application/vnd.simplestyle-extended",
+        "data": {
+            "type": "FeatureCollection",
+            "name": "Haltestellen",
+            "crs": {
+                "type": "name",
+                "properties": {
+                    "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+                }
+            },
+            "features": [{
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 95454,
+                    "BEZEICHNUNG_OFFIZIELL": "Hunzenschwil, Oberdorf",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.11935212, 47.3824571]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 88577,
+                    "BEZEICHNUNG_OFFIZIELL": "Hunzenschwil, Unterdorf",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.12361909, 47.38885401]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 88570,
+                    "BEZEICHNUNG_OFFIZIELL": "Rupperswil, Haldenweg",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.12635548, 47.39768841]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 88573,
+                    "BEZEICHNUNG_OFFIZIELL": "Hunzenschwil, Korbacher",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.12862443, 47.38671952]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 80896,
+                    "BEZEICHNUNG_OFFIZIELL": "Auenstein, Obermatt",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "PAG",
+                    "GO_BEZEICHNUNG_DE": "PostAuto AG",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.13921604, 47.41970174]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78701,
+                    "BEZEICHNUNG_OFFIZIELL": "Schafisheim, Ausserdorf",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.14877206, 47.37901505]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 72469,
+                    "BEZEICHNUNG_OFFIZIELL": "Veltheim AG, Vorerli",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "PAG",
+                    "GO_BEZEICHNUNG_DE": "PostAuto AG",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.15126344, 47.43365055]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 72468,
+                    "BEZEICHNUNG_OFFIZIELL": "Veltheim AG, Au",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "PAG",
+                    "GO_BEZEICHNUNG_DE": "PostAuto AG",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.15864357, 47.41967239]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 90242,
+                    "BEZEICHNUNG_OFFIZIELL": "Lenzburg, General Herzog-Str.",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.16179624, 47.38832467]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 95641,
+                    "BEZEICHNUNG_OFFIZIELL": "Lenzburg, F\u00fcnflinden",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.16204585, 47.38719879]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78736,
+                    "BEZEICHNUNG_OFFIZIELL": "Lenzburg, Bahnhof",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.17123428, 47.39082871]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78695,
+                    "BEZEICHNUNG_OFFIZIELL": "Lenzburg, Traitafina",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.17365705, 47.39459106]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78746,
+                    "BEZEICHNUNG_OFFIZIELL": "Lenzburg, Angelrain",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.17531743, 47.38917473]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78691,
+                    "BEZEICHNUNG_OFFIZIELL": "M\u00f6riken AG, Steinler",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.17613896, 47.41217764]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78693,
+                    "BEZEICHNUNG_OFFIZIELL": "Niederlenz, Hetex",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.17815787, 47.39915859]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 89543,
+                    "BEZEICHNUNG_OFFIZIELL": "Lenzburg, Ziegeleiweg",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.18025323, 47.37933003]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 2678,
+                    "BEZEICHNUNG_OFFIZIELL": "Egliswil, Waageplatz",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.1848158, 47.34956421]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 88178,
+                    "BEZEICHNUNG_OFFIZIELL": "Brunegg, Industriestrasse",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.22062096, 47.41939588]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 88576,
+                    "BEZEICHNUNG_OFFIZIELL": "Hunzenschwil, Gemeindehaus",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.12373613, 47.38456291]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 2104,
+                    "BEZEICHNUNG_OFFIZIELL": "Hunzenschwil",
+                    "Abkuerzung": "HU",
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "Z",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Zug",
+                    "GO_ABKUERZUNG_DE": "SBB",
+                    "GO_BEZEICHNUNG_DE": "Schweizerische Bundesbahnen SBB",
+                    "dst_abk": "HU",
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.49,
+                    "stroke": true,
+                    "color": "#01b3ff",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.12569323, 47.38828589]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 2114,
+                    "BEZEICHNUNG_OFFIZIELL": "Rupperswil",
+                    "Abkuerzung": "RU",
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "Z",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Zug",
+                    "GO_ABKUERZUNG_DE": "SBB",
+                    "GO_BEZEICHNUNG_DE": "Schweizerische Bundesbahnen SBB",
+                    "dst_abk": "RU",
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.49,
+                    "stroke": true,
+                    "color": "#01b3ff",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.12695637, 47.40329025]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 88571,
+                    "BEZEICHNUNG_OFFIZIELL": "Rupperswil, Schule",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.12815291, 47.4014644]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 80894,
+                    "BEZEICHNUNG_OFFIZIELL": "Auenstein, Eggen",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "PAG",
+                    "GO_BEZEICHNUNG_DE": "PostAuto AG",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.13561185, 47.41770875]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 80895,
+                    "BEZEICHNUNG_OFFIZIELL": "Auenstein, Hausacher",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "PAG",
+                    "GO_BEZEICHNUNG_DE": "PostAuto AG",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.14106844, 47.41746887]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78704,
+                    "BEZEICHNUNG_OFFIZIELL": "Seon, Unterdorf",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.16164845, 47.34812848]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78745,
+                    "BEZEICHNUNG_OFFIZIELL": "Lenzburg, Zeughaus",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.16378284, 47.38929264]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 2676,
+                    "BEZEICHNUNG_OFFIZIELL": "Seon, Hallenbad",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.16810877, 47.34729632]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78734,
+                    "BEZEICHNUNG_OFFIZIELL": "Lenzburg, Beyeler",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.16963589, 47.38727696]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 2677,
+                    "BEZEICHNUNG_OFFIZIELL": "Egliswil, Industrie",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.17632438, 47.34899811]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78747,
+                    "BEZEICHNUNG_OFFIZIELL": "Lenzburg, Hypiplatz",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.17841034, 47.38776081]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 90243,
+                    "BEZEICHNUNG_OFFIZIELL": "Lenzburg, Poststrasse",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.17857975, 47.38756185]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78689,
+                    "BEZEICHNUNG_OFFIZIELL": "M\u00f6riken AG, Ober\u00e4sch",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.17937832, 47.41834518]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78697,
+                    "BEZEICHNUNG_OFFIZIELL": "Lenzburg, Volg",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.18064707, 47.39240569]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78750,
+                    "BEZEICHNUNG_OFFIZIELL": "Lenzburg, Friedweg",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.18067683, 47.38407648]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78690,
+                    "BEZEICHNUNG_OFFIZIELL": "M\u00f6riken AG, Gemeindehaus",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.18194588, 47.416206]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 88869,
+                    "BEZEICHNUNG_OFFIZIELL": "Lenzburg, Schloss",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.1877766, 47.38793435]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78726,
+                    "BEZEICHNUNG_OFFIZIELL": "Lenzburg, Berufsschule",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.1919073, 47.38969744]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78755,
+                    "BEZEICHNUNG_OFFIZIELL": "Ammerswil AG, Rebrain",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.2027355, 47.36893862]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 88575,
+                    "BEZEICHNUNG_OFFIZIELL": "Rupperswil, Bahnhof",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.12690201, 47.40308187]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 80899,
+                    "BEZEICHNUNG_OFFIZIELL": "Auenstein, Wiweg",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "PAG",
+                    "GO_BEZEICHNUNG_DE": "PostAuto AG",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.1290838, 47.41605694]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 72467,
+                    "BEZEICHNUNG_OFFIZIELL": "Auenstein, Gemeindehaus",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "PAG",
+                    "GO_BEZEICHNUNG_DE": "PostAuto AG",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.1367063, 47.41628102]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 90262,
+                    "BEZEICHNUNG_OFFIZIELL": "Schafisheim, Talhard",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.13988136, 47.38264919]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78744,
+                    "BEZEICHNUNG_OFFIZIELL": "Schafisheim, Jumbo",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.14044799, 47.38645945]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78702,
+                    "BEZEICHNUNG_OFFIZIELL": "Schafisheim, Milchgasse",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.14322582, 47.37417392]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 574,
+                    "BEZEICHNUNG_OFFIZIELL": "Veltheim AG, Wildenstein",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "PAG",
+                    "GO_BEZEICHNUNG_DE": "PostAuto AG",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.15922583, 47.4264686]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78739,
+                    "BEZEICHNUNG_OFFIZIELL": "Lenzburg, Dufourstrasse",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.15888864, 47.38878356]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 2675,
+                    "BEZEICHNUNG_OFFIZIELL": "Seon, Frohsinn",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.16024963, 47.35429859]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 72465,
+                    "BEZEICHNUNG_OFFIZIELL": "Wildegg, Bahnhof",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "PAG",
+                    "GO_BEZEICHNUNG_DE": "PostAuto AG",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.16376654, 47.41535899]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 88870,
+                    "BEZEICHNUNG_OFFIZIELL": "Wildegg, Zentrum",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.16476754, 47.41491198]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 2128,
+                    "BEZEICHNUNG_OFFIZIELL": "Holderbank AG",
+                    "Abkuerzung": "HOBK",
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "Z",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Zug",
+                    "GO_ABKUERZUNG_DE": "SBB",
+                    "GO_BEZEICHNUNG_DE": "Schweizerische Bundesbahnen SBB",
+                    "dst_abk": "HOBK",
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.49,
+                    "stroke": true,
+                    "color": "#01b3ff",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.16662237, 47.42864253]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 90264,
+                    "BEZEICHNUNG_OFFIZIELL": "Seon, Birren Nord",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.16697694, 47.36424048]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 2119,
+                    "BEZEICHNUNG_OFFIZIELL": "Lenzburg",
+                    "Abkuerzung": "LB",
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "Z",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Zug",
+                    "GO_ABKUERZUNG_DE": "SBB",
+                    "GO_BEZEICHNUNG_DE": "Schweizerische Bundesbahnen SBB",
+                    "dst_abk": "LB",
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.49,
+                    "stroke": true,
+                    "color": "#01b3ff",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.17039289, 47.39119976]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78732,
+                    "BEZEICHNUNG_OFFIZIELL": "Lenzburg, Bachstrasse",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.17671977, 47.38618857]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78730,
+                    "BEZEICHNUNG_OFFIZIELL": "Lenzburg, Kronenplatz",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.18120416, 47.38770692]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 94684,
+                    "BEZEICHNUNG_OFFIZIELL": "Lenzburg, Othmarsingerstrasse",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.18801469, 47.39073913]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78728,
+                    "BEZEICHNUNG_OFFIZIELL": "Lenzburg, Neuhofstrasse",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.18836228, 47.3900263]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 94550,
+                    "BEZEICHNUNG_OFFIZIELL": "Lenzburg, Gexistrasse",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.19431872, 47.39255998]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78757,
+                    "BEZEICHNUNG_OFFIZIELL": "Ammerswil AG, Dorfplatz",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.20746749, 47.36931199]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 87102,
+                    "BEZEICHNUNG_OFFIZIELL": "Othmarsingen, R\u00f6ssli",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.21421443, 47.40080221]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 2105,
+                    "BEZEICHNUNG_OFFIZIELL": "Othmarsingen",
+                    "Abkuerzung": "OTH",
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "Z",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Zug",
+                    "GO_ABKUERZUNG_DE": "SBB",
+                    "GO_BEZEICHNUNG_DE": "Schweizerische Bundesbahnen SBB",
+                    "dst_abk": "OTH",
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.49,
+                    "stroke": true,
+                    "color": "#01b3ff",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.21480549, 47.40743351]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 87101,
+                    "BEZEICHNUNG_OFFIZIELL": "Othmarsingen, Bahnhof",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.21517519, 47.40673221]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 87230,
+                    "BEZEICHNUNG_OFFIZIELL": "M\u00e4genwil, Gewerbepark",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.22536321, 47.41027917]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 88572,
+                    "BEZEICHNUNG_OFFIZIELL": "Hunzenschwil, Birkenweg",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.11763415, 47.38690152]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 88574,
+                    "BEZEICHNUNG_OFFIZIELL": "Hunzenschwil, Weiherweg",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.11813167, 47.38437113]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78742,
+                    "BEZEICHNUNG_OFFIZIELL": "Schafisheim, Coop",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.1393403, 47.38783335]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 2557,
+                    "BEZEICHNUNG_OFFIZIELL": "Auenstein, Kirche",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "PAG",
+                    "GO_BEZEICHNUNG_DE": "PostAuto AG",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.14123675, 47.41616364]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 72466,
+                    "BEZEICHNUNG_OFFIZIELL": "Auenstein, Fahr",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "PAG",
+                    "GO_BEZEICHNUNG_DE": "PostAuto AG",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.1511519, 47.41540141]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 77957,
+                    "BEZEICHNUNG_OFFIZIELL": "Auenstein, Steinbr. Jakobsberg",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "PAG",
+                    "GO_BEZEICHNUNG_DE": "PostAuto AG",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.15668962, 47.41825441]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78738,
+                    "BEZEICHNUNG_OFFIZIELL": "Lenzburg, Langsamstig",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.1613272, 47.38987468]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78700,
+                    "BEZEICHNUNG_OFFIZIELL": "Staufen, Chr\u00fczweg",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.16167611, 47.38434981]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 90265,
+                    "BEZEICHNUNG_OFFIZIELL": "Seon, Birren S\u00fcd",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.16675456, 47.36249691]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78699,
+                    "BEZEICHNUNG_OFFIZIELL": "Staufen, Lindenplatz",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.16841158, 47.38394769]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78698,
+                    "BEZEICHNUNG_OFFIZIELL": "Staufen, Beyeler",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.16846773, 47.38611504]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 2681,
+                    "BEZEICHNUNG_OFFIZIELL": "Lenzburg, Ringstrasse Nord",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.16869973, 47.39435263]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78735,
+                    "BEZEICHNUNG_OFFIZIELL": "Lenzburg, Augustin Kellerstr.",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.17042745, 47.38898093]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78694,
+                    "BEZEICHNUNG_OFFIZIELL": "Niederlenz, Staufbergstrasse",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.17452542, 47.39800348]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78688,
+                    "BEZEICHNUNG_OFFIZIELL": "M\u00f6riken AG, Schloss Wildegg",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.17495693, 47.41965064]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78692,
+                    "BEZEICHNUNG_OFFIZIELL": "Niederlenz, Sch\u00fcrz",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.17554973, 47.40693757]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78696,
+                    "BEZEICHNUNG_OFFIZIELL": "Lenzburg, Autobahn-Viadukt",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.17987845, 47.39618835]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78729,
+                    "BEZEICHNUNG_OFFIZIELL": "Lenzburg, Mehrzweckhalle",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.18302264, 47.38988991]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 87752,
+                    "BEZEICHNUNG_OFFIZIELL": "M\u00f6riken AG, Z\u00fcriacker",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.18417902, 47.41575089]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 2211,
+                    "BEZEICHNUNG_OFFIZIELL": "Hendschiken",
+                    "Abkuerzung": "HDK",
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "Z",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Zug",
+                    "GO_ABKUERZUNG_DE": "SBB",
+                    "GO_BEZEICHNUNG_DE": "Schweizerische Bundesbahnen SBB",
+                    "dst_abk": "HDK",
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.49,
+                    "stroke": true,
+                    "color": "#01b3ff",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.2073887, 47.38943108]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 87753,
+                    "BEZEICHNUNG_OFFIZIELL": "Hunzenschwil, Bahnhof",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "SBB",
+                    "GO_BEZEICHNUNG_DE": "Schweizerische Bundesbahnen SBB",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.12538447, 47.38812398]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 80897,
+                    "BEZEICHNUNG_OFFIZIELL": "Auenstein, R\u00fctigasse",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "PAG",
+                    "GO_BEZEICHNUNG_DE": "PostAuto AG",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.13256184, 47.41653082]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 2872,
+                    "BEZEICHNUNG_OFFIZIELL": "Schafisheim, Gemeindehaus",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.14272816, 47.3765965]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 2115,
+                    "BEZEICHNUNG_OFFIZIELL": "Wildegg",
+                    "Abkuerzung": "WI",
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "Z",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Zug",
+                    "GO_ABKUERZUNG_DE": "SBB",
+                    "GO_BEZEICHNUNG_DE": "Schweizerische Bundesbahnen SBB",
+                    "dst_abk": "WI",
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.49,
+                    "stroke": true,
+                    "color": "#01b3ff",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.16301991, 47.41527515]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78737,
+                    "BEZEICHNUNG_OFFIZIELL": "Lenzburg, Schule Lenzhard",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.16621907, 47.39020377]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 2981,
+                    "BEZEICHNUNG_OFFIZIELL": "Niederlenz, Dorfplatz",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.17575728, 47.40182733]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 78754,
+                    "BEZEICHNUNG_OFFIZIELL": "Lenzburg, F\u00fcnfweiher",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.18462683, 47.37580296]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 87750,
+                    "BEZEICHNUNG_OFFIZIELL": "M\u00f6riken AG, B\u00f6senrain",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.18740006, 47.4148756]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 89490,
+                    "BEZEICHNUNG_OFFIZIELL": "Othmarsingen, Milit\u00e4rbetriebe",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.20306708, 47.39484106]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 90254,
+                    "BEZEICHNUNG_OFFIZIELL": "Othmarsingen, H\u00f6gern",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.20716791, 47.39721544]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 90162,
+                    "BEZEICHNUNG_OFFIZIELL": "Ammerswil AG, Kirche",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.20840783, 47.37116764]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 87113,
+                    "BEZEICHNUNG_OFFIZIELL": "Brunegg, Zentrum",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.21639268, 47.41843499]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "DIDOK NUMMER": 90253,
+                    "BEZEICHNUNG_OFFIZIELL": "Othmarsingen, Bahnhofstrasse",
+                    "Abkuerzung": null,
+                    "BPVB_BETRIEBSPUNKT_ART_ID": null,
+                    "BPVH_VERKEHRSMITTEL": "B",
+                    "BPVH_VERKEHRSMITTEL_TEXT_DE": "Bus",
+                    "GO_ABKUERZUNG_DE": "RBL",
+                    "GO_BEZEICHNUNG_DE": "Regionalbus Lenzburg",
+                    "dst_abk": null,
+                    "IS_HALTESTELLE": 1,
+                    "fill": true,
+                    "fillColor": "#ffffff",
+                    "fillOpacity": 0.46,
+                    "stroke": true,
+                    "color": "#112083",
+                    "opacity": 1.0,
+                    "weight": 2.0,
+                    "radius": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [8.21680793, 47.40512918]
+                }
+            }]
+        }
+    }, {
+        "name": "mapbox-background",
+        "mediatype": "application/vnd.mapbox-vector-tile",
+        "path": "mapbox://styles/gemeindescan/ckc4sha4310d21iszp8ri17u2"
+    }],
+    "maintainers": [{
+        "web": "https://github.com/n0rdlicht/",
+        "name": "Thorben Westerhuys"
+    }],
+    "contributors": [{
+        "web": "https://cividi.ch",
+        "role": "publisher",
+        "email": "info@cividi.ch",
+        "title": "cividi"
+    }]
+}

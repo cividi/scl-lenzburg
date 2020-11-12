@@ -1,0 +1,263 @@
+{
+  "bytes": 34169,
+  "count_of_rows": 109,
+  "hash": "3c92fceb25d155cdfcf3f07dab46c2de",
+  "name": "_",
+  "profile": "data-package",
+  "resources": [
+    {
+      "bytes": 34169,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "dpp:streamedFrom": "https://data.sbb.ch/explore/dataset/dienststellen-gemass-opentransportdataswiss/download/?format=csv&geofilter.distance=47.39098,8.17116,5000&timezone=Europe/Berlin&lang=de&use_labels_for_header=true&csv_separator=%3B",
+      "dpp:streaming": true,
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "120f7d72abb541c900ba57ffef68d40a",
+      "name": "sbb-haltestellen",
+      "path": "sbb-haltestellen.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "DIDOK NUMMER",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "BPUIC",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "BEZEICHNUNG_OFFIZIELL",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Abkuerzung",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "ORTSCHAFTSNAME",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "GEMEINDENAME",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "BFS_NUMMER",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "BEZIRKSNAME",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "BEZIRKSNUM",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "KANTONSNAME",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "KANTONSKUERZEL",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "KANTONSNUM",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "LAND_ISO2_GEO",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "BP_ART_BEZEICHNUNG_DE",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "BP_BETRIEBSPUNKT_ART_ID",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "BPOF_ART_BEZEICHNUNG_DE",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "BPOF_BETRIEBSPUNKT_ART_ID",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "BPTF_ART_BEZEICHNUNG_DE",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "BPVB_ART_BEZEICHNUNG_DE",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "BPVB_BETRIEBSPUNKT_ART_ID",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "BPVH_BEZEICHNUNG_ALT",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "BPVH_EPR_CODE",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "BPVH_IATA_CODE",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "E_LV95",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "N_LV95",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "Z_LV95",
+            "type": "integer"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "E_LV03",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "N_LV03",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "Z_LV03",
+            "type": "integer"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "E_WGS84",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "N_WGS84",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "Z_WGS84",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "BPVH_VERKEHRSMITTEL",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "BPVH_VERKEHRSMITTEL_TEXT_DE",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "GO_IDENTIFIKATION",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "tu-nummer",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "GO_ABKUERZUNG_DE",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "GO_BEZEICHNUNG_DE",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "dst_abk",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "lod",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "geopos",
+            "type": "geopoint"
+          },
+          {
+            "format": "default",
+            "name": "IS_HALTESTELLE",
+            "type": "integer"
+          },
+          {
+            "format": "default",
+            "name": "dist",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ]
+}
