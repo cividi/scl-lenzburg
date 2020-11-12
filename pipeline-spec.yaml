@@ -1,0 +1,134 @@
+space-syntax:
+  title: Space Syntax
+  description: Create a space syntax snapshot
+  environment:
+    DEBUG: true
+  pipeline:
+    - run: update_package
+      parameters:
+        name: space-syntax
+        author: Thorben Westerhuys <thorben@cividi.ch>
+    - run: load
+      parameters:
+        from: "data/space-syntax/segment-map.tsv"
+        name: segment-map
+        format: tsv
+    - flow: flows.select_fields
+      parameters:
+        fields: ["x1","y1","x2","y2","T1024 Choice R500 metric"]
+        resources: segment-map
+    - flow: flows.add_wkt
+      parameters:
+        coord-cols: [["x1", "y1"], ["x2", "y2"]]
+        out-col: geom_wkt
+        type: LineString
+        resources: segment-map
+    - run: add_computed_field
+      parameters:
+        resources: segment-map
+        fields:
+          - 
+            operation: constant
+            target: project
+            with: lenzburg
+          - 
+            operation: constant
+            target: key
+            with: spacesyntax-choice-r500
+          -
+            operation: format
+            target: value
+            with: '{T1024 Choice R500 metric}'
+    - run: set_types
+      parameters:
+        resources: segment-map
+        types:
+          value:
+            type: integer
+    - flow: flows.select_fields
+      parameters:
+        fields: ["geom_wkt", "project", "key", "value"]
+        resources: segment-map
+    - flow: flows.add_classes
+      parameters:
+        resources: segment-map
+        in-col: value
+        classes:
+          -
+            from: 0
+            to: 5000
+            class: rm
+          -
+            from: 5000
+            to: 10000
+            class: choice-0
+          -
+            from: 10000
+            to: 25000
+            class: choice-1
+          -
+            from: 25000
+            to: 50000
+            class: choice-2
+          -
+            from: 50000
+            to: 75000
+            class: choice-3
+          -
+            from: 75000
+            class: choice-4
+    - flow: flows.add_styling
+      parameters:
+        resources: segment-map
+        bounds: ["geo:47.36436485,8.14203466", "geo:47.41801186,8.19519318"]
+        title: "Wegenetz Zentralitäten"
+        description: "Die Space Syntax Choice Analyse zeigt die Wahrscheinlichkeit auf, mit der ein Strassensegment von einem naiven Besucher benutzt wird. So wird z.B. sichtbar, welche Teile des Strassen- und Wegenetzes fussläufig einfach erreichbar sind."
+        styles:
+          -
+            class: choice-0
+            label: sehr schwach
+            shape: line
+            primary: true
+            symbol:
+              stroke: "#e6e6e6"
+              stroke-opacity: 0.5
+              stroke-width: 2
+          -
+            class: choice-1
+            label: schwach
+            shape: line
+            primary: false
+            symbol:
+              stroke: "#f1d8bf"
+              stroke-opacity: 0.65
+              stroke-width: 2
+          -
+            class: choice-2
+            label: mittel
+            shape: line
+            primary: false
+            symbol:
+              stroke: "#f6b75d"
+              stroke-opacity: 0.8
+              stroke-width: 2
+          -
+            class: choice-3
+            label: stark
+            shape: line
+            primary: false
+            symbol:
+              stroke: "#dc641d"
+              stroke-opacity: 0.95
+              stroke-width: 2
+          -
+            class: choice-4
+            label: sehr stark
+            shape: line
+            primary: true
+            symbol:
+              stroke: "#840011"
+              stroke-opacity: 1
+              stroke-width: 2
+    - run: dump_to_path
+      parameters:
+        out-path: data/space-syntax-snapshot
