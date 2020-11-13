@@ -1,0 +1,201 @@
+{
+  "bytes": 2339375,
+  "count_of_rows": 121,
+  "hash": "a6774bf42bb838f9a08f14e129798c10",
+  "name": "_",
+  "profile": "data-package",
+  "resources": [
+    {
+      "bytes": 2339375,
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "dpp:streamedFrom": "download/swisscom/14260-nordlenzburg/insight_14260_transitorigin_start_2019-09-16_end_2019-09-22_commute_road.xlsx",
+      "dpp:streaming": true,
+      "encoding": "utf-8",
+      "format": "csv",
+      "hash": "f37a8b341de2d9f4620cef68a7dfdd0a",
+      "name": "mip-nordlenzburg-transitorigin-commute-road",
+      "path": "mip-nordlenzburg-transitorigin-commute-road.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "project",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "mip_id",
+            "type": "number"
+          },
+          {
+            "format": "%Y-%m-%d",
+            "name": "dateStart",
+            "type": "date"
+          },
+          {
+            "format": "%Y-%m-%d",
+            "name": "dateEnd",
+            "type": "date"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "postalCode",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "direction",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "reason",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "mode",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "value",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "class",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "fill",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "fill-opacity",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "stroke",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "stroke-opacity",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "stroke-width",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "geom_wkt",
+            "type": "string"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ],
+  "views": [
+    {
+      "name": "mapview",
+      "resources": [],
+      "spec": {
+        "attribution": "",
+        "bounds": [
+          "geo:47.33436485,8.11203466",
+          "geo:47.44801186,8.22519318"
+        ],
+        "description": "Ziel PLZ nach Anzahl Fahrten aus dem Areal 'Im Lenz' in der Woche vom 16. - 22. September 2019.",
+        "legend": [
+          {
+            "fill": "#e6e6e6",
+            "fill-opacity": 0.25,
+            "label": "20-200 Fahrten/Woche",
+            "primary": true,
+            "shape": "circle",
+            "stroke": "#333333",
+            "stroke-opacity": 0.8,
+            "stroke-width": 1
+          },
+          {
+            "fill": "#f1d8bf",
+            "fill-opacity": 0.35,
+            "label": "200-500 Fahrten/Woche",
+            "primary": true,
+            "shape": "circle",
+            "stroke": "#333333",
+            "stroke-opacity": 0.8,
+            "stroke-width": 1
+          },
+          {
+            "fill": "#f6b75d",
+            "fill-opacity": 0.45,
+            "label": "500-1000 Fahrten/Woche",
+            "primary": true,
+            "shape": "circle",
+            "stroke": "#333333",
+            "stroke-opacity": 0.8,
+            "stroke-width": 1
+          },
+          {
+            "fill": "#dc641d",
+            "fill-opacity": 0.55,
+            "label": "1000-5000 Fahrten/Woche",
+            "primary": true,
+            "shape": "circle",
+            "stroke": "#333333",
+            "stroke-opacity": 0.8,
+            "stroke-width": 1
+          },
+          {
+            "fill": "#840011",
+            "fill-opacity": 0.65,
+            "label": ">5000 Fahrten/Woche",
+            "primary": true,
+            "shape": "circle",
+            "stroke": "#333333",
+            "stroke-opacity": 0.8,
+            "stroke-width": 1
+          }
+        ],
+        "title": "Footprint Im Lenz regelmässige ausgehende Fahrten"
+      },
+      "specType": "gemeindescanSnapshot"
+    }
+  ]
+}
