@@ -31,7 +31,6 @@ def flow(parameters, datapackage, resources, stats):
         add_field('stroke', 'string', None, resources=parameters["resources"]),
         add_field('stroke-opacity', 'number', None, resources=parameters["resources"]),
         add_field('stroke-width', 'number', None, resources=parameters["resources"]),
-        add_field('title', 'string', None, resources=parameters["resources"]),
         add_styling(),
         update_package(views=[v_]),
     )
